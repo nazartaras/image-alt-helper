@@ -9,7 +9,7 @@
     styleSheet.appendChild(document.createTextNode(""));
     document.head.appendChild(styleSheet);
     styleSheet.sheet.insertRule(
-      `.alt_form_${timestamp} {position: fixed; background-color: white; padding: 15px; border-radius: 10px; border: 1px solid grey; z-index: 1; font-size: 16px; }`
+      `.alt_form_${timestamp} {position: fixed; background-color: white; padding: 15px; border-radius: 10px; border: 1px solid grey; z-index: 10000; font-size: 16px; }`
     );
     styleSheet.sheet.insertRule(
       `.alt_form_${timestamp} .alt_form_input_${timestamp} {width: 300px; font-size:16px; padding: 10px; display: block; outline: none; border-radius: 5px; border: 1px solid grey; margin: 10px 0px }`
